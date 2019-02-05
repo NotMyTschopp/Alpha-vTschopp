@@ -72,10 +72,4 @@ public class Highscore : MonoBehaviour {
         Debug.Log("Result of " + time + ": " + result + "ms");
         return result;
     }
-
-    // Update is called once per frame
-    void Update ()
-    {
-		
-	}
 }

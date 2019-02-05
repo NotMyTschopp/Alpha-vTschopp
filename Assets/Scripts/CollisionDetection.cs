@@ -7,12 +7,6 @@ public class CollisionDetection : MonoBehaviour {
 
     public GameObject receiverTime;
 
-	// Use this for initialization
-	void Start ()
-    {
-		
-	}
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.name == "Boundary top")
@@ -41,10 +35,4 @@ public class CollisionDetection : MonoBehaviour {
             GlobalVariables.collisionBottom = false;
         }
     }
-
-    // Update is called once per frame
-    void Update ()
-    {
-
-	}
 }
