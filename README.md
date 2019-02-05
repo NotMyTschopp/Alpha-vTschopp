@@ -7,7 +7,7 @@
 * [x] Player interaction with world (collisions etc.)
 
 # Releases
-You'll find the current release (v1.0.0-beta Build 2) under *release*.
+You'll find the current release (v1.0.0 Build 3) under *release*.
 
 ## How to build from source?
 Just clone the repo, jump into Unity (2018.2.14f1) and punch the build button.
@@ -24,7 +24,12 @@ Alpha is a game developed with Unity and build for desktop. Goal of the game is 
 * [Orbitron (Font)](https://fonts.google.com/specimen/Orbitron)
 
 ## Screenshots
-![Concept](./Screenshots/alpha_concept_screenshot.jpg)
+![Start Screen](./Screenshots/alpha_gameplay_screenshot_start-screen.png)
+![Main Screen](./Screenshots/alpha_gameplay_screenshot_main-screen.png)
+![End Screen](./Screenshots/alpha_gameplay_screenshot_end-screen.png)
+
+* You'll find the concept screenshot in [Screenshots](./Screenshots/alpha_concept_screenshot.jpg).
+* You'll find a gameplay video in [Videos](./Videos/).
 
 # License
 BSD 2-Clause License
