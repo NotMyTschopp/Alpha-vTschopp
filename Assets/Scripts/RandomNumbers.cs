@@ -43,9 +43,4 @@ public class RandomNumbers : MonoBehaviour {
         System.Random randomNumber = new System.Random(seed);
         return randomNumber.Next(min, max);
     }
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }

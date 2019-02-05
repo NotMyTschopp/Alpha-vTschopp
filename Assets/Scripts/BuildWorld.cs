@@ -13,7 +13,7 @@ public class BuildWorld : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        Debug.Log("'BuildWorld.cs' initialized.");
+        // Debug.Log("'BuildWorld.cs' initialized.");
         CreateWorld(offsetCounter);
 	}
 
@@ -31,8 +31,9 @@ public class BuildWorld : MonoBehaviour {
     {
         timer += Time.deltaTime;
 
-        if (timer > Time.deltaTime * GlobalVariables.speed)
+        if (timer > Time.deltaTime * 100 / GlobalVariables.speed)
         {
+            // Debug.Log(timer + " " + Time.deltaTime * GlobalVariables.speed + " " + Time.deltaTime);
             offsetCounter = offsetCounter + offsetDistance;
             CreateWorld(offsetCounter);
 
