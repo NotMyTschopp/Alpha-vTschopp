@@ -9,6 +9,9 @@
 # Releases
 You'll find the current release (v1.0.0 Build 3) under *release*.
 
+## Known bugs, issues and limitations
+World building algorithm is not very performant and obstacles will not be destroyed, leading to a RAM overflow eventually.
+
 ## How to build from source?
 Just clone the repo, jump into Unity (2018.2.14f1) and punch the build button.
 
@@ -22,7 +25,7 @@ Alpha is a game developed with Unity and build for desktop. Goal of the game is 
 
 ## Resources
 * [Orbitron (Font)](https://fonts.google.com/specimen/Orbitron)
-* Post-processing effects by Unity (dbe0a0d5034492fd04a3bc323aeef8dd7ddc8212)
+* [Post Processing Stack](https://assetstore.unity.com/packages/essentials/post-processing-stack-83912)
 
 ## Screenshots
 ![Start Screen](./Screenshots/alpha_gameplay_screenshot_start-screen.png)
@@ -31,6 +34,11 @@ Alpha is a game developed with Unity and build for desktop. Goal of the game is 
 
 * You'll find the concept screenshot in [Screenshots](./Screenshots/alpha_concept_screenshot.jpg).
 * You'll find a gameplay video in [Videos](./Videos/).
+
+# Lessons learned
+* How to use Git and GitHub.
+* Set-up a Unity project the right way.
+* C# basics.
 
 # License
 BSD 2-Clause License
