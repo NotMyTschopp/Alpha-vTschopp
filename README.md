@@ -22,6 +22,7 @@ Alpha is a game developed with Unity and build for desktop. Goal of the game is 
 
 ## Resources
 * [Orbitron (Font)](https://fonts.google.com/specimen/Orbitron)
+* Post-processing effects by Unity (dbe0a0d5034492fd04a3bc323aeef8dd7ddc8212)
 
 ## Screenshots
 ![Start Screen](./Screenshots/alpha_gameplay_screenshot_start-screen.png)
