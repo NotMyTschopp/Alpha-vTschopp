@@ -7,7 +7,7 @@
 * [x] Player interaction with world (collisions etc.)
 
 # Releases
-You'll find the current release (v1.0.0 Build 3) under *release*.
+You'll find the current release (v1.0.0 Build 3) under [releases](https://github.com/NotMyTschopp/Alpha-vTschopp/releases).
 
 ## Known bugs, issues and limitations
 World building algorithm is not very performant and obstacles will not be destroyed, leading to a RAM overflow eventually.
@@ -16,12 +16,14 @@ World building algorithm is not very performant and obstacles will not be destro
 Just clone the repo, jump into Unity (2018.2.14f1) and punch the build button.
 
 # What is Alpha?
-Alpha is a game developed with Unity and build for desktop. Goal of the game is to avoid collision with moving obstacles, entering the screen from right to left. Instead of controlling the character, the user moves the background up and down to avoid collisions.
+Alpha is a 2D-game developed with Unity and build for desktop. Goal of the game is to avoid collision with moving obstacles, entering the screen from right to left. Instead of controlling the character, the user moves the background up and down (`W` and `S` or `arrow keys`) to avoid collisions.
 
 ## Development and target platforms
-* Unity 2018.2.14f1
+* Unity 2018.2.14f1 on macOS Mojave
+  * Scripting Runtime: .NET 3.5
+  * API-Level: .NET 2.0 Subset
 * Visual Studio for Mac 2017 v7.7.2
-* Build for desktop (1920x1080)
+* Built for standalone desktop (1920x1080) - currently macOS only!
 
 ## Resources
 * [Orbitron (Font)](https://fonts.google.com/specimen/Orbitron)
